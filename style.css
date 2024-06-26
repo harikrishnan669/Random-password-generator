@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/158/009/original/closed-padlock-on-digital-background-cyber-security-vector.jpg');
+}
+
+.container {
+    background: #f0f0f0;
+    padding: 20px 30px;
+    width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: left;
+}
+
+h2 {
+    margin: 15px 0;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h2 span {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 10px;
+    text-decoration-color: #000;
+}
+
+.passwordbox {
+    margin: 20px 0;
+    position: relative;
+}
+
+#password {
+    width: 100%;
+    padding: 10px 20px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#password::placeholder {
+    font-weight: 400;
+}
+
+.passwordbox span {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 28px;
+    cursor: pointer;
+}
+.lengthrow{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+}
+.lengthrow p{
+    color: #000;
+    font-weight: 30px;
+}
+#lengthslider {
+    appearance: none;
+    width: 100%;
+    height: 5px;
+    background: #000;
+    outline: none;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.row{
+    margin: 15px 0px;
+    position: relative;
+    padding: 10px 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(107,107,107,0.4);
+}
+.row label{
+    margin-inline: #000;
+    font-weight: 600;
+}
+.checkbox{
+    color: #000;
+    cursor: pointer;
+    font-size: 28px
+}
+button{
+    position: relative;
+    padding: 10px 20px;
+    width: 100%;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 20px;
+    background: #000;
+    font-size: 15px;
+    margin-block: 16px;
+}
+button span{
+    margin-inline: 5px;
+}
